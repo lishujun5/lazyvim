@@ -1,0 +1,28 @@
+require("mason-lspconfig").setup({
+  ensure_installed = {
+    "clangd",
+    "gopls",
+    "bash-languare-server",
+    "bash-language-server",
+    "bashls",
+    "lua-language-server",
+    "lua_ls",
+    "pyright",
+    "shfmt",
+    "stylua",
+    "tree-sitter-cli",
+  },
+  automatic_enable = {
+    "clangd",
+    "gopls",
+    "bash-languare-server",
+    "bash-language-server",
+    "bashls",
+    "lua-language-server",
+    "lua_ls",
+    "pyright",
+    "shfmt",
+    "stylua",
+    "tree-sitter-cli",
+  },
+})
